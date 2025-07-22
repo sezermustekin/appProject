@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Nevada",
+    "slug": "Nevada",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/nevada.png",
+    "scheme": "reactproject",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/nevada.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8E6"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/nevada.png",
+        "backgroundColor": "#FFF8E6"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/nevada.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF8E6"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
